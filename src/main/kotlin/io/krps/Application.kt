@@ -1,7 +1,6 @@
 package io.krps
 
 import io.krps.plugins.*
-import io.krps.routings.routeNotice
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 
@@ -20,6 +19,5 @@ fun Application.module() {
     configureRouting()
 
     routing {
-        routeNotice()
     }
 }
